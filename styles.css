@@ -63,6 +63,7 @@ body{
     z-index: 100;
     border-bottom: 1px solid black; 
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 
 }
 
