@@ -1,494 +1,83 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
-.video-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
-}
-
-.video-background video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 body {
-  height: 5000px;
-  padding-top: 90px;
-}
-
-/* header */
-.nav {
-  transition: all 0.2s ease-in-out;
-}
-
-.header {
-  position: fixed;
-  width: 100%;
-  top: 0px;
-  z-index: 1000;
-  border-bottom: 1px solid black;
-}
-
-.main-content {
-  width: 100%;
-}
-
-.header_content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 100;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  padding: 15px 8%;
-}
-
-.brand {
-  width: 15em;
-  vertical-align: middle;
-  cursor: default;
-}
-
-.nav_list {
-  display: flex;
-  column-gap: 50px;
-}
-
-.nav_link {
-  color: black;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.hamburger {
-  display: none;
-  cursor: pointer;
+    font-family: 'Poppins', sans-serif !important;
+    height: 5000px;
+    padding-top: 60px;
 }
 
 
-.bar {
-  height: 2px;
-  width: 27px;
-  background-color: black;
-  margin: 5px 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.nav--open {
-  z-index: 10;
-  transform: translate(0) !important;
-}
-
-.hamburger--open .bar:nth-child(1) {
-  transform: translateY(7px) rotate(45deg);
-}
-
-.hamburger--open .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger--open .bar:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
-}
-
-.main-content--blurred {
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
-}
-
-.no-scroll {
-  overflow: hidden;
-  height: 100vh; /* Prevent the content from being scrollable */
-}
-
-
-/* Dropdown Container within Nav */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-/* Dropdown Button */
-.dropdown-toggle {
-    background-color: transparent;
-    color: #000;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    font-weight: 500;
-    font-size: 18px;
-    
-}
-
-.dropdown-toggle img {
-    width: 20px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.dropdown-toggle i {
-    margin-left: 5px;
-    transition: transform 0.3s ease;
-}
-
-/* Dropdown Menu */
-.dropdown-menu {
-    display: none; /* Hidden by default */
-    position: absolute;
-    background-color: transparent;
-    min-width: 160px;
-    z-index: 1000;
-    margin-top: 10px;
-    right: -30px; /* Align dropdown to the right */
-}
-
-.dropdown-menu li {
-    list-style: none;
-}
-
-.dropdown-menu li a {
-    color: #000;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    transition: background-color 0.3s ease;
-}
-
-.dropdown-menu li a:hover {
-    background-color: #f4f4f4;
-}
-
-.dropdown-menu li img {
-    width: 20px;
-    height: auto;
-    margin-right: 10px;
-}
-
-/* Show Dropdown */
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-/* Rotate the arrow when dropdown is active */
-.dropdown:hover .dropdown-toggle i {
-    transform: rotate(180deg);
-}
-
-/* Ensure language icon in dropdown toggle fits well */
-.language-selection .dropdown-icon {
-    width: 20px;
-    height: auto;
-}
-
-/* main */
-
-.home {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  z-index: 10;
-  padding: 150px 10% 0;
-}
-
-.home-content {
-  display: flex;
-  flex-direction: column;
-  max-width: 50%;
-}
-
-.home-content img {
-  max-width: 50%;
-}
-
-.home-content h3 {
-  font-size: 32px;
-  font-weight: 400;
-}
-
-.home-content h3 span {
-  font-weight: 700;
-}
-
-.home-content h1 {
-  font-size: 56px;
-  font-weight: 700;
-  margin: -3px 0;
-}
-
-.home-img {
-  flex: 1;
-  max-width: 100%;
-}
-
-.home-img img {
-  position: absolute;
-}
-
-.image-sewing-machine {
-  width: 700px;
-  height: 700px;
-  top: 1%;
-  right: 10%;
-  z-index: 1;
-}
-
-.image-folded {
-  top: 50%;
-  right: 10%;
-  width: 20%;
-  z-index: 3;
-}
-
-.image-shirts {
-  top: 45%;
-  right: 24%;
-  z-index: 1;
-}
-
-.btn {
-  margin-top: 20px;
-  width: 250px;
-  display: inline-block;
-  padding: 12px 28px;
-  background: #000000;
-  color: #ffffff;
-  text-decoration: none;
-  border-radius: 40px;
-  font-size: 16px;
-  letter-spacing: 1px;
-  text-align: center;
-  font-weight: 500;
-}
-
-.home-logo {
-  width: 200px;
-  margin-top: 100px;
-}
-
-/* media */
-
-@media (max-width: 1100px) {
-  .header_content {
-    padding: 20px 2%;
-  }
-
-  .nav_list {
-    column-gap: 30px;
-  }
-  .nav_link {
-    font-size: 15px;
-  }
-
-  .home {
-    padding: 150px 5% 0;
-  }
-
-  .home-content h1 {
-    font-size: 45px;
-    font-weight: 700;
-    margin: -3px 0;
-  }
-
-  .home-content h3 {
-    font-size: 25px;
-  }
-
-  .home-logo {
-    width: 150px;
-    margin-top: 100px;
-  }
-
-  .image-sewing-machine {
-    width: 500px;
-    height: 500px;
-    top: 5%;
-    right: 2%;
-    z-index: 1;
-  }
-
-  .image-folded {
-    top: 40%;
-    right: 1%;
-    width: 30%;
-    z-index: 3;
-  }
-
-  .image-shirts {
-    top: 35%;
-    right: 20%;
-    width: 40%;
-    z-index: 1;
-  }
-
-  .home-content {
-    max-width: 60%;
-  }
-}
-
-@media (max-width: 820px) {
-  .brand {
-    width: 10em;
-  }
-  s .header_content {
-    padding: 20px 2%;
-  }
-
-  .nav_list {
-    column-gap: 30px;
-  }
-  .nav_link {
-    font-size: 12px;
-  }
-
-  .home {
-    padding: 75px 5% 0;
-  }
-
-  .home-content h1 {
-    font-size: 37px;
-    font-weight: 700;
-  }
-
-  .home-content h3 {
-    font-size: 20px;
-  }
-
-  .home-logo {
-    width: 100px;
-    margin-top: 100px;
-  }
-
-  .image-sewing-machine {
-    width: 450px;
-    height: 450px;
-    top: 1%;
-    right: 2%;
-    z-index: 1;
-  }
-
-  .image-folded {
-    top: 40%;
-    right: 1%;
-    width: 30%;
-    z-index: 3;
-  }
-
-  .image-shirts {
-    top: 35%;
-    right: 20%;
-    width: 40%;
-    z-index: 1;
-  }
-
-  .home-content {
-    max-width: 50%;
-  }
-}
-
-@media (max-width: 600px) {
-  .nav {
+.video-background {
     position: fixed;
-    top: 60px;
+    top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0 25px;
-    transform: translateY(-200%);
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 
-  .nav_list {
-    flex-direction: column;
-    align-items: center;
-    row-gap: 20px;
-  }
 
-  .nav_link {
-    font-size: 25px;
-    font-weight: 400;
-  }
+  .navbar-blur {
+    backdrop-filter: blur(20px); /* Apply blur effect */
+    -webkit-backdrop-filter: blur(20px); /* Support for Safari */
+    border-bottom: 1px solid black; /* Black border at the bottom */
+}
 
-  .hamburger {
-    display: block;
-  }
-
-  .home {
+.nav-link {
+    transition: all 0.5s;
     position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    opacity: 0;
+    transition: all 0.2s;
+    height: 3px;
     width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    z-index: 10;
-  }
+    background-color: black;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
 
-  .home-content {
-    gap: 20px;
-  }
-
-  .home-content h1 {
-    font-size: 30px;
-    font-weight: 700;
-  }
-  .home-content h3 {
-    font-size: 20px;
-  }
-
-  .home-logo {
-    display: none;
-  }
-
-  .image-sewing-machine {
-    width: 500px;
-    height: 500px;
-    top: 40%;
-    z-index: 1;
-  }
-
-  .image-folded {
-    top: 70%;
-    right: 1%;
-    width: 50%;
-    z-index: 3;
-  }
-
-  .image-shirts {
-    top: 65%;
-    right: 40%;
-    width: 70%;
-    z-index: 1;
-  }
-
-  .home-content {
-    max-width: 100%;
-  }
-
-  .btn {
-    width: 100%;
-  }
 }
 
 
 
+
+@media (max-width: 768px) {
+    .home-logo {
+      display: none;
+    }
+  }
+
+  @media (min-width: 991.98px) {
+    .nav-link:hover::after {
+      opacity: 1;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .nav-link:hover::after {
+      opacity: 0;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .hero {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    .about_us{
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }

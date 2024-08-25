@@ -1,124 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ARRTEXX</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <title>Home</title>
+    <!-- Custom CSS  -->
     <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
+
+
     <div class="video-background">
-      <video autoplay muted loop playsinline>
-        <source src="assets/video/fab2.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div>
-
-    <header class="header">
-      <div class="header_content">
-        <a href="#" class="brand-name"
-          ><img src="assets/logo/brand black.png" alt="Logo Icon" class="brand"
-        /></a>
-
-        <nav class="nav">
-          <ul class="nav_list">
-            <li class="nav_item">
-              <a href="#" class="nav_link">Home</a>
-            </li>
-            <li class="nav_item">
-              <a href="#" class="nav_link">About</a>
-            </li>
-            <li class="nav_item">
-              <a href="#" class="nav_link">Services</a>
-            </li>
-            <li class="nav_item">
-              <a href="#" class="nav_link">Sustainability</a>
-            </li>
-            <li class="nav_item">
-              <a href="#" class="nav_link">Contact Us</a>
-            </li>
-
-            <!-- Add the UK icon for language selection -->
-        <!-- Dropdown for Language Selection -->
-        <li class="nav_item language-selection dropdown">
-          <button class="dropdown-toggle">
-            <img src="assets/images/uk-icon.png" alt="UK Flag" class="dropdown-icon"> English
-            <i class="bx bx-chevron-down"></i>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a href="#"><img src="assets/images/uk-icon.png" alt="UK Flag" class="dropdown-icon"> English</a></li>
-            <li><a href="#"><img src="assets/images/spain-icon.png" alt="Spain Flag" class="dropdown-icon"> Español</a></li>
-            <li><a href="#"><img src="assets/images/france-icon.png" alt="France Flag" class="dropdown-icon"> Français</a></li>
-            <li><a href="#"><img src="assets/images/germany-icon.png" alt="Germany Flag" class="dropdown-icon"> Deutsch</a></li>
-          </ul>
-        </li>
-          </ul>
-        </nav>
-
-        <div class="hamburger">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
-        </div>
+        <video autoplay muted loop playsinline>
+          <source src="assets/video/fab2.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
-    </header>
 
-    <div class="main-content">
-      <section class="home">
-        <div class="home-content">
-          <h1>Empowering Your Vision, One Thread at a Time</h1>
 
-          <h3>
-            Discover premium clothing and textiles designed with
-            <span class="multiple-text"></span>
-          </h3>
-
-          <a href="#" class="btn">Contact Us Today</a>
-          <img
-            src="assets/logo/circle white.png"
-            class="home-logo"
-            alt="Logo Icon"
-          />
+      <nav class="navbar navbar-expand-lg navbar-blur fixed-top">
+        <div class="container-fluid px-2 px-lg-5">
+            <a class="navbar-brand" href="#">
+                <img src="/assets/logo/brand black.png" alt="Bootstrap" width="200px" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" aria-current="page" href="#" data-i18n="navbar_home"></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" data-bs-toggle="collapse"data-bs-target=".navbar-collapse.show"  href="#" data-i18n="navbar_about"></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#" data-i18n="navbar_services"></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#" data-i18n="navbar_sustainability"></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#" data-i18n="navbar_contact_us"></a>
+                    </li>
+                    
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img id="languageIcon" src="assets/images/uk-icon.png" alt="UK Flag" width="20" height="auto" class="d-inline-block align-text-top">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onclick="changeLanguage('en')" class="dropdown-item mb-2" href="#"><img src="assets/images/uk-icon.png" alt="English" width="20" height="auto" class="d-inline-block align-text-top">English</a></li>
+                            <li><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onclick="changeLanguage('fr')" class="dropdown-item mb-2"  href="#"><img src="assets/images/france-icon.png" alt="Français" width="20" height="auto" class="d-inline-block align-text-top">Français</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <div class="home-img">
-          <img
-            src="assets/images/sewing-machine-big.png"
-            alt="Coat"
-            class="image-sewing-machine"
-          />
-          <img
-            src="assets/images/clothes-folded-trans.png"
-            alt="Folded Clothes"
-            class="image-folded"
-          />
-          <img
-            src="assets/images/clothes-shirts-trans.png"
-            alt="Shirts"
-            class="image-shirts"
-          />
+    <section class="hero py-2">
+        <div class="container-fluid px-5 mt-5">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="hero-text mb-4">
+                <h1 class="display-5 fw-bold" data-i18n="hero_section_title1"></h1>
+                <h1 class="display-5 fw-bold" data-i18n="hero_section_title2"></h1>
+                <h4  data-i18n="hero_section_lead1"></h4>
+                <h4 class="d-inline" data-i18n="hero_section_lead2"></h4>
+                <h4 class="d-inline fw-bold"><span id="multiple-text"></span></h4>
+              </div>
+              <div class="hero-button mb-5">
+                <a href="#" class="btn btn-dark btn-lg rounded-pill" data-i18n="hero_section_cta" >Contact Us Today</a>
+              </div>
+              <img
+              src="assets/logo/circle white.png"
+              class="home-logo"
+              alt="Logo Icon"
+            />
+            </div>
+            <div class="col-md-6">
+              <img src="assets/images/Home-img.png" class="img-fluid" alt="Hero Image">
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="about"></section>
 
-      
+     
 
-      <section class="services"></section>
 
-      <section class="sustainability"></section>
 
-      <section class="contact-us"></section>
-    </div>
+
+    
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
