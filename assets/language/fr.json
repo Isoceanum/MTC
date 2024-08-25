@@ -1,0 +1,23 @@
+{
+  "navbar_home" : "Accueil",
+  "navbar_about" : "À propos", 
+  "navbar_services" : "Services", 
+  "navbar_sustainability" : "Durabilité", 
+  "navbar_contact_us" : "Contactez-nous",
+
+
+  "hero_section_title1" : "Renforcer votre vision,",
+  "hero_section_title2" : "Un fil à la fois",
+  "hero_section_lead1" : "Découvrez des vêtements et textiles de qualité supérieure ",
+  "hero_section_lead2" : "conçus avec",
+
+  "typed_texts": [
+      "précision.",
+      "passion.",
+      "durabilité en tête.",
+      "élégance et confort.",
+      "qualité inégalée."
+    ],
+
+  "hero_section_cta" : "Contactez-nous dès aujourd'hui"
+}
