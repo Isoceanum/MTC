@@ -10,7 +10,7 @@
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" tabindex="0">
 
 
     <div class="video-background">
@@ -20,40 +20,39 @@
         </video>
       </div>
 
-
-      <nav class="navbar navbar-expand-lg navbar-blur fixed-top">
+      <nav id="navbarSupportedContent" class="navbar navbar-expand-lg navbar-blur fixed-top">
         <div class="container-fluid px-2 px-lg-5">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand slide-right" href="#">
                 <img src="assets/logo/brand-black.png" alt="Bootstrap" width="200px" height="auto">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item mx-2">
-                        <a class="nav-link active" aria-current="page" href="#" data-i18n="navbar_home"></a>
+                    <li class="nav-item mx-2 slide-lg-bottom">
+                        <a id="nav-link" style="--i: 0;" class="nav-link active" aria-current="page" href="#home" data-i18n="navbar_home"></a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" data-bs-toggle="collapse"data-bs-target=".navbar-collapse.show"  href="#" data-i18n="navbar_about"></a>
+                    <li class="nav-item mx-2 slide-lg-bottom">
+                        <a id="nav-link" style="--i: 1;" class="nav-link" href="#about"  data-i18n="navbar_about"></a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#" data-i18n="navbar_services"></a>
+                    <li class="nav-item mx-2 slide-lg-bottom">
+                        <a id="nav-link" class="nav-link" href="#services" data-i18n="navbar_services"></a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#" data-i18n="navbar_sustainability"></a>
+                    <li class="nav-item mx-2 slide-lg-bottom">
+                        <a id="nav-link" class="nav-link" href="#sustainability" data-i18n="navbar_sustainability"></a>
                     </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#" data-i18n="navbar_contact_us"></a>
+                    <li class="nav-item mx-2 slide-lg-bottom">
+                        <a id="nav-link" class="nav-link" href="#contact" data-i18n="navbar_contact_us"></a>
                     </li>
                     
-                    <li class="nav-item dropdown mx-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item dropdown mx-2 slide-lg-bottom">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img id="languageIcon" src="assets/images/uk-icon.png" alt="UK Flag" width="20" height="auto" class="d-inline-block align-text-top">
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onclick="changeLanguage('en')" class="dropdown-item mb-2" href="#"><img src="assets/images/uk-icon.png" alt="English" width="20" height="auto" class="d-inline-block align-text-top">English</a></li>
-                            <li><a data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" onclick="changeLanguage('fr')" class="dropdown-item mb-2"  href="#"><img src="assets/images/france-icon.png" alt="Français" width="20" height="auto" class="d-inline-block align-text-top">Français</a></li>
+                        <ul class="dropdown-menu dropdown-menu-end ">
+                            <li><a id="nav-link" onclick="changeLanguage('en')" class="dropdown-item mb-2"><img src="assets/images/uk-icon.png" alt="English" width="20" height="auto" class="d-inline-block align-text-top">English</a></li>
+                            <li><a id="nav-link" onclick="changeLanguage('fr')" class="dropdown-item mb-2"><img src="assets/images/france-icon.png" alt="Français" width="20" height="auto" class="d-inline-block align-text-top">Français</a></li>
                         </ul>
                     </li>
                     
@@ -62,28 +61,72 @@
         </div>
     </nav>
 
-    <section class="hero py-2">
+    <section id="home" class="hero py-2 pt-5">
         <div class="container-fluid px-5 mt-5">
           <div class="row align-items-center">
             <div class="col-md-6">
-              <div class="hero-text mb-4">
-                <h1 class="display-5 fw-bold" data-i18n="hero_section_title1"></h1>
-                <h1 class="display-5 fw-bold" data-i18n="hero_section_title2"></h1>
+              <div class="hero-text mb-4 slide-right">
+                <h1 class="display-5 fw-bold slide-right" data-i18n="hero_section_title1"></h1>
+                <h1 class="display-5 fw-bold slide-right" data-i18n="hero_section_title2"></h1>
                 <h4  data-i18n="hero_section_lead1"></h4>
                 <h4 class="d-inline" data-i18n="hero_section_lead2"></h4>
                 <h4 class="d-inline fw-bold"><span id="multiple-text"></span></h4>
               </div>
               <div class="hero-button mb-5">
-                <a href="#" class="btn btn-dark btn-lg rounded-pill" data-i18n="hero_section_cta" >Contact Us Today</a>
+                <a href="#" class="btn btn-dark btn-lg rounded-pill float-up-down slide-top " data-i18n="hero_section_cta" ></a>
               </div>
               <img
               src="assets/logo/circle white.png"
-              class="home-logo"
+              class="home-logo slide-top"
               alt="Logo Icon"
             />
             </div>
             <div class="col-md-6">
-              <img src="assets/images/Home-img.png" class="img-fluid" alt="Hero Image">
+              <img src="assets/images/Home-img.png" class="img-fluid slide-top" alt="Hero Image">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="hr hr-blurry" />
+      <section id="about" class="about-us py-2 pt-5">
+        <div class="container-fluid px-5 mt-5 ">
+          <div class="row">
+            <div class="col-lg-8 border-end border-2 border-dark left-col slide-right">
+              <div class="mb-4">
+                <h1 class="fw-bold" data-i18n="about_us_section_title1"></h1>
+                <p data-i18n="about_us_section_text1">
+                     </p>
+              </div>
+              <div class="container mb-4">
+                <div class="row ">
+                    <!-- Text Column -->
+                    <div class="col-md-6 d-flex flex-column justify-content-end ml px-0 mx-0">
+                            <h4 class="fw-semibold" data-i18n="about_us_section_title2"></h4>
+                            <p data-i18n="about_us_section_text2">
+
+                            </p>
+                      
+                    </div>
+                    <!-- Image Column -->
+                    <div class="col-md-6">
+                        <img src="assets/images/fig.png" class="img-fluid" alt="Logo Icon"/>
+                    </div>
+                </div>
+            </div>
+      
+            </div>
+            <div class="col-lg-4 d-flex flex-column justify-content-between slide-left">
+                <!-- Image -->
+                <img src="assets/images/sewing-machine-small.png" class="img-fluid  align-self-start sewing-machine-small" alt="sewing-machine-small">
+            
+                <!-- Text Content -->
+                <div class="mt-auto mb-4 px-0 mx-0">
+                    <h4 class="fw-semibold" data-i18n="about_us_section_title3"></h4>
+                    <p class="custom-display-lg" data-i18n="about_us_section_text3">
+                        
+                    </p>
+                </div>
             </div>
           </div>
         </div>

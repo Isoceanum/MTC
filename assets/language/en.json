@@ -1,25 +1,29 @@
 {
-    "navbar_home" : "Home",
-    "navbar_about" : "About", 
-    "navbar_services" : "Services", 
-    "navbar_sustainability" : "Sustainability", 
-    "navbar_contact_us" : "Contact Us",
+  "navbar_home": "Home",
+  "navbar_about": "About",
+  "navbar_services": "Services",
+  "navbar_sustainability": "Sustainability",
+  "navbar_contact_us": "Contact Us",
 
+  "hero_section_title1": "Empowering Your Vision,",
+  "hero_section_title2": "One Thread at a Time",
+  "hero_section_lead1": "Discover premium clothing and textiles ",
+  "hero_section_lead2": "designed with",
 
-    "hero_section_title1" : "Empowering Your Vision,",
-    "hero_section_title2" : "One Thread at a Time",
-    "hero_section_lead1" : "Discover premium clothing and textiles ",
-    "hero_section_lead2" : "designed with",
+  "typed_texts": [
+    "precision.",
+    "passion.",
+    "sustainability in mind.",
+    "elegance and comfort.",
+    "unmatched quality."
+  ],
 
-    "typed_texts": [
-        "precision.",
-        "passion.",
-        "sustainability in mind.",
-        "elegance and comfort.",
-        "unmatched quality."
-      ],
+  "about_us_section_title1": "Crafting Excellence in Every Thread",
+  "about_us_section_title2": "Celebrating Over 9 Years of Excellence",
+  "about_us_section_title3": "Our Vision",
+  "about_us_section_text1": "At Arrtexx, we transcend the role of a textile company—we lead in creating fabrics that marry quality with sustainability. Our journey started with a clear vision: to produce beautiful, durable textiles while caring for our environment. Today, this vision has become a promise—to integrate sustainability into every fiber, ensuring our products are as gentle on the planet as they are on you.",
+  "about_us_section_text2": "For over nine years, we have dedicated ourselves to crafting textiles that marry beauty, durability, and environmental responsibility. Our journey began with a commitment to innovation, blending traditional craftsmanship with modern, sustainable practices. From humble beginnings, we’ve grown into a trusted name in the industry, known for our unwavering focus on quality and sustainability. As we continue to innovate, we remain dedicated to creating textiles that not only meet the highest standards but also contribute to a better future.",
+  "about_us_section_text3": "Our journey has matured into a steadfast commitment to infusing sustainability into each thread, ensuring that every product is as gentle on the earth as it is on you. We continually innovate to weave environmental stewardship into our craftsmanship, making sure our textiles honor both you and our planet.",
 
-      "hero_section_cta" : "Contact Us Today"
-
-
+  "hero_section_cta": "Contact Us Today"
 }
