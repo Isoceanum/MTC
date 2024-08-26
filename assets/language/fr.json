@@ -1,23 +1,34 @@
 {
-  "navbar_home" : "Accueil",
-  "navbar_about" : "À propos", 
-  "navbar_services" : "Services", 
-  "navbar_sustainability" : "Durabilité", 
-  "navbar_contact_us" : "Contactez-nous",
+  "navbar_home": "Accueil",
+  "navbar_about": "À propos",
+  "navbar_services": "Services",
+  "navbar_sustainability": "Durabilité",
+  "navbar_contact_us": "Contactez-nous",
 
-
-  "hero_section_title1" : "Renforcer votre vision,",
-  "hero_section_title2" : "Un fil à la fois",
-  "hero_section_lead1" : "Découvrez des vêtements et textiles de qualité supérieure ",
-  "hero_section_lead2" : "conçus avec",
+  "hero_section_title1": "Renforcer votre vision,",
+  "hero_section_title2": "Un fil à la fois",
+  "hero_section_lead1": "Découvrez des vêtements et textiles de qualité supérieure ",
+  "hero_section_lead2": "conçus avec",
 
   "typed_texts": [
-      "précision.",
-      "passion.",
-      "durabilité en tête.",
-      "élégance et confort.",
-      "qualité inégalée."
-    ],
+    "précision.",
+    "passion.",
+    "durabilité en tête.",
+    "élégance et confort.",
+    "qualité inégalée."
+  ],
 
-  "hero_section_cta" : "Contactez-nous dès aujourd'hui"
+  
+    "about_us_section_title1": "L'Excellence dans Chaque Fil",
+    "about_us_section_title2": "Plus de 9 Ans d'Excellence",
+    "about_us_section_title3": "Notre Vision",
+    "about_us_section_text1": "Chez Arrtexx, nous transcandons le rôle d'une entreprise textile—nous sommes leaders dans la création de tissus qui allient qualité et durabilité. Notre voyage a commencé avec une vision claire : produire des textiles beaux et durables tout en prenant soin de notre environnement. Aujourd'hui, cette vision est devenue une promesse—intégrer la durabilité dans chaque fibre, en veillant à ce que nos produits soient aussi doux pour la planète que pour vous.",
+    "about_us_section_text2": "Depuis plus de neuf ans, nous nous consacrons à l'artisanat de textiles qui allient beauté, durabilité et responsabilité environnementale. Notre voyage a débuté avec un engagement envers l'innovation, en mélangeant savoir-faire traditionnel et pratiques modernes et durables. Depuis des débuts modestes, nous sommes devenus un nom de confiance dans l'industrie, reconnus pour notre focus inébranlable sur la qualité et la durabilité. Alors que nous continuons d'innover, nous restons dévoués à créer des textiles qui non seulement répondent aux normes les plus élevées mais qui contribuent également à un avenir meilleur.",
+    "about_us_section_text3": "Notre voyage s'est transformé en un engagement ferme à insuffler la durabilité dans chaque fil, garantissant que chaque produit est aussi doux pour la terre que pour vous. Nous innovons continuellement pour tisser la gestion environnementale dans notre savoir-faire, en veillant à ce que nos textiles honorent à la fois vous et notre planète.",
+  
+  
+
+  
+
+  "hero_section_cta": "Contactez-nous dès aujourd'hui"
 }

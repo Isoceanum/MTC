@@ -31,6 +31,17 @@ body {
     border-bottom: 1px solid black; /* Black border at the bottom */
 }
 
+
+.nav-language-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all 0.5s;
+  position: relative;
+
+}
+
 .nav-link {
     transition: all 0.5s;
     position: relative;
@@ -51,22 +62,89 @@ body {
 
 
 
+.slide-right {
+  animation: slideRight 1s ease-in-out forwards;
+}
+
+/* Slide Left Animation */
+.slide-left {
+  animation: slideLeft 1s ease-in-out forwards;
+}
+
+/* Slide Top Animation */
+.slide-top {
+  animation: slideTop 1s ease-in-out forwards;
+}
+
+/* Slide Bottom Animation */
+.slide-bottom {
+  animation: slideBottom 1s ease-in-out forwards;
+}
+
+.float-up-down {
+  animation: floatUpDown 2s ease-in-out infinite;
+}
+
+.swingIn {
+  animation: swingIn 3s ease-out forwards;
+}
+
 
 @media (max-width: 768px) {
     .home-logo {
       display: none;
     }
+
+    .sewing-machine-small {
+      display: none;
+
+    }
+
+ 
+
+    .left-col {
+      border: none !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
+    .left-col * {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  
+  }
   }
 
   @media (min-width: 991.98px) {
     .nav-link:hover::after {
       opacity: 1;
     }
+
+    .nav-link:active::after, /* When the link is active/clicked */
+    .nav-link.active::after { /* When the link has the 'active' class */
+        opacity: 1;
+    }
+
+
+
+    body p{
+      font-size:  1.25rem; /* This is equivalent to the display-5 size in Bootstrap */
+      line-height: 1.5;
+
+  }
   }
   
   @media (max-width: 992px) {
     .nav-link:hover::after {
       opacity: 0;
+    }
+
+    .nav-link:active::after, /* When the link is active/clicked */
+    .nav-link.active::after { /* When the link has the 'active' class */
+        opacity: 0;
     }
   }
 
@@ -76,8 +154,94 @@ body {
       padding-right: 100px;
     }
 
-    .about_us{
+    .about-us{
       padding-left: 100px;
       padding-right: 100px;
     }
+
+    .slide-lg-bottom {
+      animation: slideBottom 1s ease forwards;
+      animation-delay: calc(0.2s * var(--i));  /* Delay based on the --i variable */
+
+    }
   }
+
+
+
+  /* Keyframes */
+@keyframes slideRight {
+  0% {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+
+}
+
+@keyframes slideLeft {
+  0% {
+      transform: translateX(100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+
+}
+
+@keyframes slideTop {
+  0% {
+      transform: translateY(100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+
+}
+
+
+@keyframes slideBottom {
+  0% {
+      transform: translateY(-100px);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes swingIn {
+  0% {
+      transform: translateX(100%) rotate(0deg); 
+  }
+  40% {
+      transform: translateX(0) rotate(8deg); 
+  }
+  60% {
+      transform: translateX(-5px) rotate(-3deg);
+  }
+  100% {
+      transform: translateX(0) rotate(0deg); 
+  }
+}
