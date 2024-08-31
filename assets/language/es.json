@@ -1,0 +1,66 @@
+{
+    "navbar_home": "Inicio",
+    "navbar_about": "Acerca de",
+    "navbar_services": "Servicios",
+    "navbar_sustainability": "Sostenibilidad",
+    "navbar_contact_us": "Contáctanos",
+  
+    "hero_section_title1": "Empoderando tu visión,",
+    "hero_section_title2": "Un hilo a la vez",
+    "hero_section_lead1": "Descubre ropa y textiles de calidad premium",
+    "hero_section_lead2": "diseñados con",
+    "hero_section_cta": "Solicita un presupuesto",
+  
+    "typed_texts": [
+      "precisión.",
+      "pasión.",
+      "sostenibilidad en mente.",
+      "elegancia y confort.",
+      "calidad inigualable."
+    ],
+  
+    "about_us_section_title1": "Tejiendo excelencia en cada hilo",
+    "about_us_section_title2": "Celebrando más de 9 años de excelencia",
+    "about_us_section_title3": "Nuestra Visión",
+    "about_us_section_text1": "En Arrtexx, vamos más allá del papel tradicional de una empresa textil: somos pioneros en la creación de tejidos que armonizan calidad y sostenibilidad. Nuestro viaje comenzó con una visión clara: crear textiles hermosos y duraderos que respeten y preserven nuestro entorno. Hoy, esta visión se ha transformado en un compromiso firme: integrar la sostenibilidad en cada fibra, asegurando que nuestros productos sean tan suaves con el planeta como lo son contigo.",
+    "about_us_section_text2": "Durante más de nueve años, nos hemos dedicado a crear textiles que combinan belleza, durabilidad y responsabilidad ambiental. Nuestro viaje comenzó con un compromiso con la innovación, combinando la artesanía tradicional con prácticas modernas y sostenibles. De comienzos humildes, hemos crecido hasta convertirnos en un nombre de confianza en la industria, conocido por nuestro enfoque inquebrantable en la calidad y la sostenibilidad. A medida que seguimos innovando, seguimos comprometidos a crear textiles que no solo cumplan con los estándares más altos, sino que también contribuyan a un futuro mejor.",
+    "about_us_section_text3": "Nuestro recorrido se ha convertido en un compromiso firme de integrar la sostenibilidad en cada hilo, garantizando que cada producto sea tan respetuoso con la tierra como lo es contigo. Innovamos continuamente para entrelazar la responsabilidad ambiental en nuestra artesanía, asegurándonos de que nuestros textiles honren tanto a ti como a nuestro planeta.",
+  
+    "services_section_title": "Innovación, Calidad y Agilidad: Los Pilares de Nuestros Servicios",
+    "services_section_title_innovation": "Innovación",
+    "services_section_title_quality": "Calidad",
+    "services_section_title_agility": "Agilidad",
+    "services_section_text_innovation": "En Artrexx, la innovación es el hilo que teje nuestro éxito. Constantemente empujamos los límites de la tecnología textil, integrando los últimos avances para crear tejidos que no solo cumplen, sino que superan los estándares de la industria. Desde el concepto hasta la creación, nuestro enfoque innovador asegura que cada producto sea un avance en calidad y sostenibilidad.",
+    "services_section_text_quality": "La calidad es el núcleo de todo lo que hacemos. Cada tejido que producimos pasa por rigurosas pruebas para garantizar que cumpla con nuestros exigentes estándares. Creemos que la verdadera calidad es una combinación de durabilidad, belleza y responsabilidad. Con cada pieza, nos esforzamos por ofrecer productos que no solo sean excepcionales, sino que también sean respetuosos con el medio ambiente.",
+    "services_section_text_agility": "Nuestra agilidad nos permite adaptarnos rápidamente a las necesidades cambiantes de nuestros clientes y del mercado. Ya sea respondiendo a nuevas tendencias, personalizando diseños o cumpliendo con plazos ajustados, nuestro enfoque flexible asegura que entreguemos excelencia sin compromisos. Estamos comprometidos a proporcionar soluciones oportunas que sean tan dinámicas como la propia industria.",
+  
+    "sustainability_section_title": "Tejiendo un Futuro más Verde",
+    "sustainability_section_title_commitment": "Nuestro Compromiso con las Prácticas Sostenibles",
+    "sustainability_section_title_community": "Empoderamiento Comunitario",
+    "sustainability_section_title_materials": "Materiales y Procesos Ecológicos",
+    "sustainability_section_text_commitment": "En Arrtexx, la sostenibilidad es la piedra angular de nuestro negocio. Desde la selección de materiales ecológicos hasta la adopción de procesos de producción eficientes en energía, nos aseguramos de que cada paso que damos apoye un futuro sostenible. Creemos que la verdadera calidad es inseparable de la responsabilidad ambiental, y esta creencia se refleja en cada tejido que creamos. Al elegir Arrtexx, no solo optas por la excelencia; apoyas una marca dedicada a proteger nuestro planeta.",
+    "sustainability_section_text_community": "La sostenibilidad en Artrexx incluye un impacto social. Garantizamos salarios justos, condiciones seguras y un trato ético para todos los trabajadores de nuestra cadena de suministro. Al empoderar a las comunidades, creamos textiles que no solo lucen bien, sino que también generan un impacto positivo.",
+    "sustainability_section_text_materials": "Nuestro camino hacia la sostenibilidad comienza con la selección cuidadosa de fibras naturales, orgánicas y recicladas. Nos enfocamos en minimizar los residuos, conservar el agua y reducir las emisiones de carbono en cada paso de nuestro proceso de producción.",
+  
+    "contact_section_title": "Contáctanos",
+    "contact_section_lead-1": "¿Tienes un proyecto textil?",
+    "contact_section_lead-2": "Hagámoslo realidad juntos. Presupuesto rápido, gratuito y sin compromiso.",
+  
+    "contact_form_name": "Nombre Completo",
+    "contact_form_company": "Nombre de la Empresa",
+    "contact_form_phone": "Número de Teléfono (opcional)",
+    "contact_form_country": "País",
+    "contact_form_country_help": "Seleccione su país",
+    "contact_form_email": "Dirección de Correo Electrónico",
+    "contact_form_subject": "¿En qué necesita ayuda?",
+  
+    "contact_form_subject_quote": "Solicitud de Presupuesto",
+    "contact_form_subject_order": "Realizar un Pedido",
+    "contact_form_subject_inquiry": "Consulta General",
+  
+    "contact_form_details": "Detalles",
+    "contact_form_submit": "Enviar",
+  
+    "footer_copyright": "© 2024 ARRTEXX. Todos los derechos reservados."
+  }
+  

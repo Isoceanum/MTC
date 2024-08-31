@@ -5,10 +5,11 @@
   "navbar_sustainability": "Durabilité",
   "navbar_contact_us": "Contactez-nous",
 
-  "hero_section_title1": "Renforcer votre vision,",
+  "hero_section_title1": "Donner vie à votre vision,",
   "hero_section_title2": "Un fil à la fois",
-  "hero_section_lead1": "Découvrez des vêtements et textiles de qualité supérieure ",
+  "hero_section_lead1": "Découvrez des vêtements et textiles de qualité supérieure",
   "hero_section_lead2": "conçus avec",
+  "hero_section_cta": "Demandez un devis",
 
   "typed_texts": [
     "précision.",
@@ -18,17 +19,47 @@
     "qualité inégalée."
   ],
 
-  
-    "about_us_section_title1": "L'Excellence dans Chaque Fil",
-    "about_us_section_title2": "Plus de 9 Ans d'Excellence",
-    "about_us_section_title3": "Notre Vision",
-    "about_us_section_text1": "Chez Arrtexx, nous transcandons le rôle d'une entreprise textile—nous sommes leaders dans la création de tissus qui allient qualité et durabilité. Notre voyage a commencé avec une vision claire : produire des textiles beaux et durables tout en prenant soin de notre environnement. Aujourd'hui, cette vision est devenue une promesse—intégrer la durabilité dans chaque fibre, en veillant à ce que nos produits soient aussi doux pour la planète que pour vous.",
-    "about_us_section_text2": "Depuis plus de neuf ans, nous nous consacrons à l'artisanat de textiles qui allient beauté, durabilité et responsabilité environnementale. Notre voyage a débuté avec un engagement envers l'innovation, en mélangeant savoir-faire traditionnel et pratiques modernes et durables. Depuis des débuts modestes, nous sommes devenus un nom de confiance dans l'industrie, reconnus pour notre focus inébranlable sur la qualité et la durabilité. Alors que nous continuons d'innover, nous restons dévoués à créer des textiles qui non seulement répondent aux normes les plus élevées mais qui contribuent également à un avenir meilleur.",
-    "about_us_section_text3": "Notre voyage s'est transformé en un engagement ferme à insuffler la durabilité dans chaque fil, garantissant que chaque produit est aussi doux pour la terre que pour vous. Nous innovons continuellement pour tisser la gestion environnementale dans notre savoir-faire, en veillant à ce que nos textiles honorent à la fois vous et notre planète.",
-  
-  
+  "about_us_section_title1": "Excellence dans chaque fil",
+  "about_us_section_title2": "Plus de 9 ans d'excellence",
+  "about_us_section_title3": "Notre Vision",
+  "about_us_section_text1": "Chez Arrtexx, nous allons au-delà du rôle traditionnel d'une entreprise textile—nous sommes des pionniers dans la création de tissus qui allient qualité et durabilité. Notre parcours a commencé avec une vision claire : créer des textiles beaux et durables qui respectent et préservent notre environnement. Aujourd'hui, cette vision s'est transformée en un engagement inébranlable : intégrer la durabilité dans chaque fibre, en veillant à ce que nos produits soient aussi doux pour la planète que pour vous.",
+  "about_us_section_text2": "Depuis plus de neuf ans, nous nous consacrons à la fabrication de textiles qui marient beauté, durabilité et responsabilité environnementale. Notre parcours a débuté par un engagement envers l'innovation, alliant l'artisanat traditionnel à des pratiques modernes et durables. De débuts modestes, nous sommes devenus un nom de confiance dans l'industrie, reconnus pour notre engagement indéfectible envers la qualité et la durabilité. Alors que nous continuons à innover, nous restons déterminés à créer des textiles qui non seulement respectent les normes les plus élevées, mais contribuent également à un avenir meilleur.",
+  "about_us_section_text3": "Notre parcours s'est transformé en un engagement inébranlable d'intégrer la durabilité dans chaque fil, garantissant que chaque produit est aussi respectueux de la terre qu'il l'est pour vous. Nous innovons constamment pour intégrer la gestion environnementale dans notre savoir-faire, en veillant à ce que nos textiles honorent à la fois vous et notre planète.",
 
-  
+  "services_section_title": "Innovation, Qualité et Agilité : Les Piliers de nos Services",
+  "services_section_title_innovation": "Innovation",
+  "services_section_title_quality": "Qualité",
+  "services_section_title_agility": "Agilité",
+  "services_section_text_innovation": "Chez Artrexx, l'innovation est le fil conducteur de notre succès. Nous repoussons constamment les limites de la technologie textile, intégrant les dernières avancées pour créer des tissus qui non seulement répondent, mais dépassent les normes de l'industrie. De la conception à la création, notre approche innovante garantit que chaque produit représente un pas en avant en matière de qualité et de durabilité.",
+  "services_section_text_quality": "La qualité est au cœur de tout ce que nous faisons. Chaque tissu que nous produisons est soumis à des tests rigoureux pour s'assurer qu'il répond à nos normes exigeantes. Nous croyons que la véritable qualité est une combinaison de durabilité, de beauté et de responsabilité. Avec chaque pièce, nous nous efforçons d'offrir des produits qui ne sont pas seulement exceptionnels, mais aussi respectueux de l'environnement.",
+  "services_section_text_agility": "Notre agilité nous permet de nous adapter rapidement aux besoins changeants de nos clients et du marché. Qu'il s'agisse de répondre aux nouvelles tendances, de personnaliser des designs ou de respecter des délais serrés, notre approche flexible garantit que nous livrons l'excellence sans compromis. Nous nous engageons à fournir des solutions rapides et efficaces qui sont aussi dynamiques que l'industrie elle-même.",
 
-  "hero_section_cta": "Contactez-nous dès aujourd'hui"
+  "sustainability_section_title": "Tisser un avenir plus vert",
+  "sustainability_section_title_commitment": "Notre Engagement envers des Pratiques Durables",
+  "sustainability_section_title_community": "Empowerment Communautaire",
+  "sustainability_section_title_materials": "Matériaux et Processus Éco-Responsables",
+  "sustainability_section_text_commitment": "Chez Arrtexx, la durabilité est la pierre angulaire de notre entreprise. Du choix de matériaux écologiques à l'adoption de processus de production économes en énergie, nous veillons à ce que chaque étape que nous franchissons soutienne un avenir durable. Nous croyons que la véritable qualité est indissociable de la responsabilité environnementale, et cette conviction se reflète dans chaque tissu que nous créons. En choisissant Arrtexx, vous ne choisissez pas seulement l'excellence ; vous soutenez une marque dédiée à la protection de notre planète.",
+  "sustainability_section_text_community": "La durabilité chez Artrexx inclut un impact social. Nous veillons à garantir des salaires équitables, des conditions de travail sûres et un traitement éthique pour tous les travailleurs de notre chaîne d'approvisionnement. En autonomisant les communautés, nous créons des textiles qui sont beaux et bénéfiques, ayant un impact positif.",
+  "sustainability_section_text_materials": "Notre parcours vers la durabilité commence par une sélection minutieuse de fibres naturelles, biologiques et recyclées. Nous nous concentrons sur la minimisation des déchets, la conservation de l'eau et la réduction des émissions de carbone à chaque étape de notre processus de production.",
+
+  "contact_section_title": "Contactez-nous",
+  "contact_section_lead-1": "Avez-vous un projet textile ?",
+  "contact_section_lead-2": "Réalisons-le ensemble. Devis rapide, gratuit et sans engagement.",
+
+  "contact_form_name": "Nom Complet",
+  "contact_form_company": "Nom de l'Entreprise",
+  "contact_form_phone": "Numéro de Téléphone (optionnel)",
+  "contact_form_country": "Pays",
+  "contact_form_country_help": "Sélectionnez votre pays",
+  "contact_form_email": "Adresse Email",
+  "contact_form_subject": "Que puis-je faire pour vous aider ?",
+
+  "contact_form_subject_quote": "Demande de Devis",
+  "contact_form_subject_order": "Passer une Commande",
+  "contact_form_subject_inquiry": "Demande Générale",
+
+  "contact_form_details": "Détails",
+  "contact_form_submit": "Envoyer",
+
+  "footer_copyright": "© 2024 ARRTEXX. Tous droits réservés."
 }

@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ARRTEXX</title>
@@ -10,18 +11,22 @@
 
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" tabindex="0">
+
+    <!-- Icons  -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" tabindex="0">
 
 
     <div class="video-background">
         <video autoplay muted loop playsinline>
-          <source src="assets/video/fab2.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
+            <source src="assets/video/fab2.mp4" type="video/mp4" /> Your browser does not support the video tag.
         </video>
-      </div>
+    </div>
 
-      <nav id="navbarSupportedContent" class="navbar navbar-expand-lg navbar-blur fixed-top">
+    <nav id="navbarSupportedContent" class="navbar navbar-expand-lg blur border-bottom border-1 border-dark fixed-top">
         <div class="container-fluid px-2 px-lg-5">
             <a class="navbar-brand slide-right" href="#">
                 <img src="assets/logo/brand-black.png" alt="Bootstrap" width="200px" height="auto">
@@ -35,7 +40,7 @@
                         <a id="nav-link" style="--i: 0;" class="nav-link active" aria-current="page" href="#home" data-i18n="navbar_home"></a>
                     </li>
                     <li class="nav-item mx-2 slide-lg-bottom">
-                        <a id="nav-link" style="--i: 1;" class="nav-link" href="#about"  data-i18n="navbar_about"></a>
+                        <a id="nav-link" style="--i: 1;" class="nav-link" href="#about" data-i18n="navbar_about"></a>
                     </li>
                     <li class="nav-item mx-2 slide-lg-bottom">
                         <a id="nav-link" class="nav-link" href="#services" data-i18n="navbar_services"></a>
@@ -46,17 +51,24 @@
                     <li class="nav-item mx-2 slide-lg-bottom">
                         <a id="nav-link" class="nav-link" href="#contact" data-i18n="navbar_contact_us"></a>
                     </li>
-                    
+
                     <li class="nav-item dropdown mx-2 slide-lg-bottom">
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <img id="languageIcon" src="assets/images/uk-icon.png" alt="UK Flag" width="20" height="auto" class="d-inline-block align-text-top">
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end ">
-                            <li><a id="nav-link" onclick="changeLanguage('en')" class="dropdown-item mb-2"><img src="assets/images/uk-icon.png" alt="English" width="20" height="auto" class="d-inline-block align-text-top">English</a></li>
-                            <li><a id="nav-link" onclick="changeLanguage('fr')" class="dropdown-item mb-2"><img src="assets/images/france-icon.png" alt="Français" width="20" height="auto" class="d-inline-block align-text-top">Français</a></li>
+                            <li>
+                                <a id="nav-link" onclick="changeLanguage('en')" class="dropdown-item mb-2"><img src="assets/images/uk-icon.png" alt="English" width="20" height="auto" class="d-inline-block align-text-top">English</a>
+                            </li>
+                            <li>
+                                <a id="nav-link" onclick="changeLanguage('fr')" class="dropdown-item mb-2"><img src="assets/images/france-icon.png" alt="Français" width="20" height="auto" class="d-inline-block align-text-top">Français</a>
+                            </li>
+                            <li>
+                                <a id="nav-link" onclick="changeLanguage('es')" class="dropdown-item mb-2"><img src="assets/images/spain-icon.png" alt="Español" width="20" height="auto" class="d-inline-block align-text-top"> Español</a>
+                            </li>
                         </ul>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -64,160 +76,297 @@
 
     <section id="home" class="hero py-2 pt-5">
         <div class="container-fluid px-5 mt-5">
-          <div class="row align-items-center">
-            <div class="col-md-6">
-              <div class="hero-text mb-4 slide-right">
-                <h1 class="display-5 fw-bold slide-right" data-i18n="hero_section_title1"></h1>
-                <h1 class="display-5 fw-bold slide-right" data-i18n="hero_section_title2"></h1>
-                <h4  data-i18n="hero_section_lead1"></h4>
-                <h4 class="d-inline" data-i18n="hero_section_lead2"></h4>
-                <h4 class="d-inline fw-bold"><span id="multiple-text"></span></h4>
-              </div>
-              <div class="hero-button mb-5">
-                <a href="#" class="btn btn-dark btn-lg rounded-pill float-up-down slide-top " data-i18n="hero_section_cta" ></a>
-              </div>
-              <img
-              src="assets/logo/circle white.png"
-              class="home-logo slide-top"
-              alt="Logo Icon"
-            />
-            </div>
-            <div class="col-md-6">
-              <img src="assets/images/Home-img.png" class="img-fluid slide-top" alt="Hero Image">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr class="hr hr-blurry" />
-      <section id="about" class="about-us py-2 pt-5">
-        <div class="container-fluid px-5 mt-5">
-          <div class="row">
-            <div class="col-lg-8 border-end border-1 border-dark left-col slide-right">
-              <div class="mb-4">
-                <h1 class="fw-bold" data-i18n="about_us_section_title1"></h1>
-                <p data-i18n="about_us_section_text1">
-                     </p>
-              </div>
-              <div class="container mb-4">
-                <div class="row ">
-                    <!-- Text Column -->
-                    <div class="col-md-6 d-flex flex-column justify-content-end ml px-0 mx-0">
-                            <h4 class="fw-semibold" data-i18n="about_us_section_title2"></h4>
-                            <p data-i18n="about_us_section_text2">
-
-                            </p>
-                      
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="hero-text mb-4 slide-right">
+                        <h1 class="display-5 fw-bold slide-right" data-i18n="hero_section_title1"></h1>
+                        <h1 class="display-5 fw-bold slide-right" data-i18n="hero_section_title2"></h1>
+                        <h4 data-i18n="hero_section_lead1"></h4>
+                        <h4 class="d-inline" data-i18n="hero_section_lead2"></h4>
+                        <h4 class="d-inline fw-bold"><span id="multiple-text"></span></h4>
                     </div>
-                    <!-- Image Column -->
-                    <div class="col-md-6">
-                        <img src="assets/images/fig.png" class="img-fluid" alt="Logo Icon"/>
+                    <div class="hero-button mb-5">
+                        <a href="#contact" class="btn btn-dark btn-lg rounded-pill float-up-down slide-top " data-i18n="hero_section_cta"></a>
+                    </div>
+                    <img src="assets/logo/circle white.png" class="home-logo slide-top" alt="Logo Icon" />
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/Home-img.png" class="img-fluid slide-top" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="hr hr-blurry" />
+    <section id="about" class="about-us py-2 pt-5">
+        <div class="container-fluid px-5 mt-5">
+            <div class="row">
+                <div class="col-lg-8 border-end border-1 border-dark left-col slide-right">
+                    <div class="mb-4">
+                        <h1 class="fw-bold" data-i18n="about_us_section_title1"></h1>
+                        <p data-i18n="about_us_section_text1">
+                        </p>
+                    </div>
+                    <div class="container mb-4">
+                        <div class="row ">
+                            <!-- Text Column -->
+                            <div class="col-md-6 d-flex flex-column justify-content-end ml px-0 mx-0">
+                                <h4 class="fw-semibold" data-i18n="about_us_section_title2"></h4>
+                                <p data-i18n="about_us_section_text2">
+
+                                </p>
+
+                            </div>
+                            <!-- Image Column -->
+                            <div class="col-md-6">
+                                <img src="assets/images/fig.png" class="img-fluid" alt="Logo Icon" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 d-flex flex-column justify-content-between slide-left">
+                    <!-- Image -->
+                    <img src="assets/images/sewing-machine-small.png" class="img-fluid  align-self-start sewing-machine-small" alt="sewing-machine-small">
+
+                    <!-- Text Content -->
+                    <div class="mt-auto mb-4 px-0 mx-0">
+                        <h4 class="fw-semibold" data-i18n="about_us_section_title3"></h4>
+                        <p class="custom-display-lg" data-i18n="about_us_section_text3">
+
+                        </p>
                     </div>
                 </div>
             </div>
-      
+        </div>
+    </section>
+
+    <hr class="hr hr-blurry" />
+    <section id="services" class="services pt-5 pb-5">
+        <div class="container-fluid px-5 mt-5 ">
+            <h1 class="fw-bold mb-5 slide-right" data-i18n="services_section_title"></h1>
+            <div class="row g-3 gx-5">
+
+                <div class="col-12 col-md-6 col-lg-4 slide-left">
+                    <div class="card">
+                        <img src="assets/images/services-img-3.png" alt="" class="card-img-top">
+                        <div class="card-body py-5">
+                            <h4 class="card-titel pb-3 " data-i18n="services_section_title_innovation"></h4>
+                            <p class="card-text" data-i18n="services_section_text_innovation">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 slide-left">
+                    <div class="card">
+                        <img src="assets/images/services-img-1.png" alt="" class="card-img-top">
+                        <div class="card-body py-5">
+                            <h4 class="card-titel pb-3" data-i18n="services_section_title_quality">  </h4>
+                            <p class="card-text" data-i18n="services_section_text_quality">
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 slide-left">
+                    <div class="card">
+                        <img src="assets/images/services-img-2.png" alt="" class="card-img-top">
+                        <div class="card-body py-5">
+                            <h4 class="card-titel pb-3" data-i18n="services_section_title_agility"></h4>
+                            <p class="card-text" data-i18n="services_section_text_agility">
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4 d-flex flex-column justify-content-between slide-left">
-                <!-- Image -->
-                <img src="assets/images/sewing-machine-small.png" class="img-fluid  align-self-start sewing-machine-small" alt="sewing-machine-small">
-            
-                <!-- Text Content -->
-                <div class="mt-auto mb-4 px-0 mx-0">
-                    <h4 class="fw-semibold" data-i18n="about_us_section_title3"></h4>
-                    <p class="custom-display-lg" data-i18n="about_us_section_text3">
-                        
+        </div>
+    </section>
+
+
+    <hr class="hr hr-blurry" />
+
+    <section id="sustainability" class="sustainability py-5 overflow-hidden position-relative  ">
+        <div class="container-fluid px-5 mt-5 ">
+            <div class="row g-3 gx-5">
+                <div class="col-12  border-bottom border-1 border-dark mb-lg-5 mb-md-5 slide-top">
+                    <h1 class="fw-bold mb-lg-4 " data-i18n="sustainability_section_title"></h1>
+                    <h4 class="fw-semibold  mb-3" data-i18n="sustainability_section_title_commitment"></h4>
+                    <p class=" mb-5" data-i18n="sustainability_section_text_commitment"></p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6  border-end border-1 border-dark  pb-lg-5 slide-left">
+                    <h4 class="fw-semibold mb-lg-4 " data-i18n="sustainability_section_title_community"></h4>
+                    <p data-i18n="sustainability_section_text_community">
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6  pb-lg-5 slide-left">
+                    <h4 class="fw-semibold mb-lg-4 " data-i18n="sustainability_section_title_materials"></h4>
+                    <p data-i18n="sustainability_section_text_materials">
                     </p>
                 </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <hr class="hr hr-blurry" />
-      <section id="services" class="services pt-5 pb-5">
-        <div class="container-fluid px-5 mt-5 ">
-          <h1 class="fw-bold mb-5 slide-right">Innovation and Quality at the Core of Our Services</h1>
-          <div class="row g-3 gx-5">
-
-            <div class="col-12 col-md-6 col-lg-4 slide-left">
-              <div class="card">
-                <img src="assets/images/services-img-3.png" alt="" class="card-img-top">
-                <div class="card-body py-5">
-                  <h4 class="card-titel pb-3">Innovation</h4>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repellendus, 
-                    dolor odit animi quas tempora omnis nisi perspiciatis itaque veniam odio 
-                    molestiae placeat saepe accusamus nesciunt. Nobis impedit atque iure.
-                    
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 slide-left">
-              <div class="card">
-                <img src="assets/images/services-img-1.png" alt="" class="card-img-top">
-                <div class="card-body py-5">
-                  <h4 class="card-titel pb-3">Quality</h4>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repellendus, 
-            
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-12 col-md-6 col-lg-4 slide-left">
-              <div class="card">
-                <img src="assets/images/services-img-2.png" alt="" class="card-img-top">
-                <div class="card-body py-5">
-                  <h4 class="card-titel pb-3">Agility</h4>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et repellendus, 
-                    dolor odit animi quas tempora omnis nisi perspiciatis itaque veniam odio 
-                    molestiae placeat saepe accusamus nesciunt. Nobis impedit atque iure.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <hr class="hr hr-blurry" />
-
-      <section id="sustainability" class="sustainability py-5 overflow-hidden position-relative  ">
-        <div class="container-fluid px-5 mt-5 ">
-          <div class="row g-3 gx-5">
-            <div class="col-12  border-bottom border-1 border-dark mb-lg-5 mb-md-5 slide-top">
-              <h1 class="fw-bold mb-lg-4 " data-i18n="sustainability_section_title1"></h1>
-              <h4 class="fw-semibold  mb-3" data-i18n="sustainability_section_title2"></h4>
-              <p class=" mb-5"  data-i18n="sustainability_section_text1"></p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6  border-end border-1 border-dark  pb-lg-5 slide-left">
-              <h4 class="fw-semibold mb-lg-4 " data-i18n="sustainability_section_title3"></h4>
-              <p data-i18n="sustainability_section_text2">
-              </p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6  pb-lg-5 slide-left">
-              <h4 class="fw-semibold mb-lg-4 " data-i18n="sustainability_section_title4"></h4>
-              <p data-i18n="sustainability_section_text3">
-              </p>
-            </div>
-          </div>
         </div>
         <img src="assets/images/sustainability-img-1.png" alt="Globe Image" class="globe-image">
-      </section>
+    </section>
 
-      <hr class="hr hr-blurry" />
+    <hr class="hr hr-blurry" />
+    <section id="contact" class="contact py-5">
+        <div class="container-fluid px-5 mt-5">
+            <h1 class="fw-bold " data-i18n="contact_section_title">Contact us</h1>
+            <p class="mb-0" data-i18n="contact_section_lead-1">
+            </p>
+            <p class="mb-3" data-i18n="contact_section_lead-2">
+            </p>
 
-      <section id="contact" class="contact py-5">
+            <div class="row gx-5 gy-5 gy-lg-3 d-flex justify-content-between">
+                <div class="col-lg-8">
+                    <form class="bg-white px-5 pt-5 rounded-custom pb-5" action="/submit-contact-form" method="POST">
+                        <!-- Full Name and Company Name Fields Side by Side -->
+                        <div class="row">
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="full-name" class="form-label" data-i18n="contact_form_name">Full Name</label>
+                                <input type="text" class="form-control" id="full-name" name="full-name" required />
+                            </div>
 
-      </section>
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="company-name" class="form-label" data-i18n="contact_form_company">Company Name</label>
+                                <input type="text" class="form-control" id="company-name" name="company-name" />
+                            </div>
+                        </div>
+
+                        <!-- Phone Number and Country Field -->
+                        <div class="row">
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="phone" class="form-label" data-i18n="contact_form_phone">Phone Number (optional)</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" />
+                            </div>
+                            <!-- Country Dropdown -->
+                            <div class="col-md-6 form-group mb-3">
+                                <label for="country" class="form-label" data-i18n="contact_form_country"></label>
+                                <select class="form-select" id="country" name="country">
+                                    <option value="" disabled selected data-i18n="contact_form_country_help"></option>
+                                    <option value="at">Austria</option>
+                                    <option value="be">Belgium</option>
+                                    <option value="bg">Bulgaria</option>
+                                    <option value="hr">Croatia</option>
+                                    <option value="cz">Czech Republic</option>
+                                    <option value="dk">Denmark</option>
+                                    <option value="ee">Estonia</option>
+                                    <option value="fi">Finland</option>
+                                    <option value="fr">France</option>
+                                    <option value="de">Germany</option>
+                                    <option value="ie">Ireland</option>
+                                    <option value="it">Italy</option>
+                                    <option value="lv">Latvia</option>
+                                    <option value="lt">Lithuania</option>
+                                    <option value="lu">Luxembourg</option>
+                                    <option value="nl">Netherlands</option>
+                                    <option value="no">Norway</option>
+                                    <option value="pl">Poland</option>
+                                    <option value="pt">Portugal</option>
+                                    <option value="sk">Slovakia</option>
+                                    <option value="si">Slovenia</option>
+                                    <option value="es">Spain</option>
+                                    <option value="se">Sweden</option>
+                                    <option value="uk">United Kingdom</option>
+                                    <option value="other">None of the above</option>
+                                </select>
+
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="email" class="form-label" data-i18n="contact_form_email"></label>
+                            <input type="email" class="form-control" id="email" name="email" required />
+                        </div>
+
+
+                        <!-- Subject Dropdown -->
+                        <div class="form-group mb-3">
+                            <label for="subject" class="form-label" data-i18n="contact_form_subject"></label>
+                            <select class="form-select" id="subject" name="subject" required>
+                                <option value="quote" data-i18n="contact_form_subject_quote"></option>
+                                <option value="order" data-i18n="contact_form_subject_order"></option>
+                                <option value="general" data-i18n="contact_form_subject_inquiry"></option>
+                            </select>
+                        </div>
+
+                        <!-- Message Field -->
+                        <div class="form-group mb-3">
+                            <label for="message" class="form-label" data-i18n="contact_form_details"></label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark btn-lg rounded-pill px-5" data-i18n="contact_form_submit"></button>
+                    </form>
+                </div>
+
+
+                <div class="col-lg-4 position-relative">
+                    <div class="bg-white px-5 pt-5 rounded-custom pb-5 position-relative h-100">
+                        <img src="assets/logo/circle white.png" class="contact-brand" alt="Logo Icon" />
+
+                        <!-- Contact Information List -->
+                        <ul class="list-unstyled mt-5 pt-5">
+
+                            <!-- Physical Address -->
+                            <li class="mb-4 pb-2 border-bottom">
+                              <i class="bx bx-map me-3" style="font-size: 24px;"></i>
+                              <span>123 Your Street, Your City, Your Country</span>
+                          </li>
+                          
+                            <!-- Email Address -->
+                            <li class="mb-4 pb-2 border-bottom">
+                              <a href="mailto:info@yourcompany.com" class="text-dark text-decoration-none">
+                                  <i class="bx bx-envelope me-3" style="font-size: 24px;"></i>
+                                  <span>info@yourcompany.com</span>
+                              </a>
+                          </li>
+                            <!-- Facebook Link -->
+                            <li class="mb-4 pb-2 border-bottom">
+                                <a href="https://www.facebook.com/YourCompany" target="_blank" class="text-dark text-decoration-none">
+                                    <i class="bx bxl-facebook-circle me-3" style="font-size: 24px;"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+
+
+                            <!-- LinkedIn Link -->
+                            <li class="mb-4 pb-2">
+                                <a href="https://www.linkedin.com/company/yourcompany" target="_blank" class="text-dark text-decoration-none">
+                                    <i class="bx bxl-linkedin-square me-3" style="font-size: 24px;"></i>
+                                    <span>LinkedIn</span>
+                                </a>
+                            </li>
+
+        
+                        </ul>
+
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer class="blur border-top border-1 border-dark text-center py-3 mt-auto">
+        <div data-i18n="footer_copyright"></div>
+    </footer>
+
+
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>

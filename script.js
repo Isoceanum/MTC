@@ -1,4 +1,4 @@
-document.querySelector("video").playbackRate = 0.8;
+document.querySelector("video").playbackRate = 0.9999;
 
 function updateContent(lang, langData) {
   document.querySelectorAll("[data-i18n]").forEach((element) => {
@@ -13,6 +13,9 @@ function updateContent(lang, langData) {
   } else if (lang === "fr") {
     languageIcon.src = "assets/images/france-icon.png";
     languageIcon.alt = "France Flag";
+  }else if (lang === "es") {
+    languageIcon.src = "assets/images/spain-icon.png";
+    languageIcon.alt = "Spains Flag";
   }
 
   if (langData.typed_texts) {
