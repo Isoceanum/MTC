@@ -9,6 +9,7 @@
   "hero_section_title2": "One Thread at a Time",
   "hero_section_lead1": "Discover premium clothing and textiles ",
   "hero_section_lead2": "designed with",
+  "hero_section_cta": "Request a quote",
 
   "typed_texts": [
     "precision.",
@@ -21,17 +22,44 @@
   "about_us_section_title1": "Crafting Excellence in Every Thread",
   "about_us_section_title2": "Celebrating Over 9 Years of Excellence",
   "about_us_section_title3": "Our Vision",
-  "about_us_section_text1": "At Arrtexx, we transcend the role of a textile company—we lead in creating fabrics that marry quality with sustainability. Our journey started with a clear vision: to produce beautiful, durable textiles while caring for our environment. Today, this vision has become a promise—to integrate sustainability into every fiber, ensuring our products are as gentle on the planet as they are on you.",
+  "about_us_section_text1": "At Arrtexx, we go beyond the traditional role of a textile company—we are pioneers in crafting fabrics that harmonize quality and sustainability. Our journey began with a clear vision: to create beautiful, durable textiles that respect and preserve our environment. Today, this vision has evolved into a steadfast commitment—to weave sustainability into every fiber, ensuring that our products are as gentle on the planet as they are on you.",
   "about_us_section_text2": "For over nine years, we have dedicated ourselves to crafting textiles that marry beauty, durability, and environmental responsibility. Our journey began with a commitment to innovation, blending traditional craftsmanship with modern, sustainable practices. From humble beginnings, we’ve grown into a trusted name in the industry, known for our unwavering focus on quality and sustainability. As we continue to innovate, we remain dedicated to creating textiles that not only meet the highest standards but also contribute to a better future.",
   "about_us_section_text3": "Our journey has matured into a steadfast commitment to infusing sustainability into each thread, ensuring that every product is as gentle on the earth as it is on you. We continually innovate to weave environmental stewardship into our craftsmanship, making sure our textiles honor both you and our planet.",
 
-  "sustainability_section_title1" : "Weaving a Greener Future",
-  "sustainability_section_title2" : "Our Commitment to Sustainable Practices",
-  "sustainability_section_title3" : "Community Empowerment",
-  "sustainability_section_title4" : "Eco-Friendly Materials and Processes",
-  "sustainability_section_text1" : "At Artrexx, sustainability drives everything we do. From eco-friendly materials to energy-efficient production, we create fabrics that support a sustainable future. By choosing Artrexx, you’re supporting a brand committed to protecting our planet.At Artrexx, sustainability drives everything we do. From eco-friendly materials to energy-efficient production, we create fabrics that support a sustainable future. By choosing Artrexx, you’re supporting a brand committed to protecting our planet",
-  "sustainability_section_text2" : "Sustainability at Artrexx includes social impact. We ensure fair wages, safe conditions, and ethical treatment for all workers in our supply chain. By empowering communities, we create textiles that look good and do good, making a positive impact.",
-  "sustainability_section_text3" : "Our journey towards sustainability begins with carefully selecting natural, organic, and recycled fibers. We focus on minimizing waste, conserving water, and reducing carbon emissions in every step of our production process.",
+  "services_section_title" : "Innovation, Quality, and Agility: The Pillars of Our Services",
+  "services_section_title_innovation": "Innovation",
+  "services_section_title_quality": "Quality",
+  "services_section_title_agility": "Agility",
+  "services_section_text_innovation": "At Artrexx, innovation is the thread that weaves our success. We consistently push the boundaries of textile technology, integrating the latest advancements to create fabrics that not only meet but exceed industry standards. From concept to creation, our innovative approach ensures that each product is a step forward in quality and sustainability.",
+  "services_section_text_quality": "Quality is at the core of everything we do. Each fabric we produce undergoes rigorous testing to ensure it meets our exacting standards. We believe that true quality is a blend of durability, beauty, and responsibility. With every piece, we strive to offer products that are not only exceptional but also gentle on the environment.",
+  "services_section_text_agility": "Our agility allows us to swiftly adapt to the ever-changing needs of our clients and the market. Whether it’s responding to new trends, customizing designs, or meeting tight deadlines, our flexible approach ensures that we deliver excellence without compromise. We are committed to providing timely solutions that are as dynamic as the industry itself.",
 
-  "hero_section_cta": "Contact Us Today"
+  "sustainability_section_title": "Weaving a Greener Future",
+  "sustainability_section_title_commitment": "Our Commitment to Sustainable Practices",
+  "sustainability_section_title_community": "Community Empowerment",
+  "sustainability_section_title_materials": "Eco-Friendly Materials and Processes",
+  "sustainability_section_text_commitment": "At Arrtexx, sustainability is the cornerstone of our business. From sourcing eco-friendly materials to adopting energy-efficient production, we ensure every step we take supports a sustainable future. We believe that true quality is inseparable from environmental responsibility, and this belief is reflected in every fabric we create. By choosing Arrtexx, you’re not just opting for excellence; you’re supporting a brand dedicated to safeguarding our planet.",
+  "sustainability_section_text_community": "Sustainability at Artrexx includes social impact. We ensure fair wages, safe conditions, and ethical treatment for all workers in our supply chain. By empowering communities, we create textiles that look good and do good, making a positive impact.",
+  "sustainability_section_text_materials": "Our journey towards sustainability begins with carefully selecting natural, organic, and recycled fibers. We focus on minimizing waste, conserving water, and reducing carbon emissions in every step of our production process.",
+
+  "contact_section_title": "Contact us",
+  "contact_section_lead-1": "Do you have a textile project?",
+  "contact_section_lead-2": "Let's make it happen together. Quick, free, and non-binding quote.",
+
+  "contact_form_name": "Full Name",
+  "contact_form_company": "Company Name",
+  "contact_form_phone": "Phone Number (optional)",
+  "contact_form_country": "Country",
+  "contact_form_country_help": "Select your country",
+  "contact_form_email": "Email Address",
+  "contact_form_subject": "What do you need help with?",
+
+  "contact_form_subject_quote": "Requesting a Quote",
+  "contact_form_subject_order": "Placing an Order",
+  "contact_form_subject_inquiry": "General Inquiry",
+
+  "contact_form_details": "Details",
+  "contact_form_submit": "Submit",
+
+  "footer_copyright": "© 2024 ARRTEXX. All rights reserved."
 }

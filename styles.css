@@ -2,9 +2,9 @@
 
 body {
     font-family: 'Poppins', sans-serif !important;
-
     padding-top: 60px;
 }
+
 
 .video-background {
     position: fixed;
@@ -23,10 +23,9 @@ body {
     object-position: center;
 }
 
-.navbar-blur {
+.blur {
     backdrop-filter: blur(20px); /* Apply blur effect */
     -webkit-backdrop-filter: blur(20px); /* Support for Safari */
-    border-bottom: 1px solid black; /* Black border at the bottom */
 }
 
 .nav-language-link {
@@ -65,16 +64,26 @@ body {
     transform: scale(1.05);
 }
 
-
+.rounded-custom {
+    border-radius: 20px;
+}
 
 
 .globe-image {
     position: absolute; /* Fixes the image to the viewport */
     right: -600px; /* Moves the image to the right edge of the viewport and pushes half of it off-screen */
     animation: spin 100s linear infinite; /* Makes the globe spin */
-    top: 450px;
-
+    top: -65px;
 }
+
+
+.contact-brand {
+    position: absolute;
+    top: -70px;
+    left: 50%; /* Position the left edge of the image at the center of the parent */
+    transform: translateX(-50%); 
+}
+
 
 
 /* animation classes */
