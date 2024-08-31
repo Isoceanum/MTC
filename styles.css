@@ -55,6 +55,30 @@ body {
     left: 0;
 }
 
+
+.card {
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.globe-image {
+    position: absolute; /* Fixes the image to the viewport */
+    right: -600px; /* Moves the image to the right edge of the viewport and pushes half of it off-screen */
+    animation: spin 100s linear infinite; /* Makes the globe spin */
+    top: 450px;
+
+}
+
+
+/* animation classes */
+
 .slide-right {
     animation: slideRight 1s ease-in-out forwards;
     -webkit-animation: slideRight 1s ease-in-out forwards; /* Safari */
@@ -85,6 +109,14 @@ body {
     -webkit-animation: swingIn 3s ease-out forwards; /* Safari */
 }
 
+.spinning-element {
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+
+/* media */
+
 @media (max-width: 768px) {
     .home-logo {
         display: none;
@@ -107,6 +139,19 @@ body {
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
+
+    .sustainability {
+        padding-right: 0 !important;
+    }
+
+    .sustainability * {
+        border: none !important;
+    }
+
+    .globe-image {
+        display: none;
+    }
+
 }
 
 @media (min-width: 991.98px) {
@@ -134,6 +179,14 @@ body {
     .nav-link.active::after { /* When the link has the 'active' class */
         opacity: 0;
     }
+
+    .globe-image {
+        right: -750px;
+    }
+
+    .sustainability {
+        padding-right: 20%;
+    }
 }
 
 @media (min-width: 992px) {
@@ -143,6 +196,23 @@ body {
     }
 
     .about-us {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .services {
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .sustainability {
+        padding-left: 100px;
+        padding-right: 350px;
+        height: 900px;
+    }
+
+    .contact {
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -289,5 +359,23 @@ body {
     }
     100% {
         -webkit-transform: translateX(0) rotate(0deg); 
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        transform: translateY(-50%) rotate(0deg);
+    }
+    to {
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        -webkit-transform: translateY(-50%) rotate(0deg);
+    }
+    to {
+        -webkit-transform: translateY(-50%) rotate(360deg);
     }
 }
